@@ -1,0 +1,16 @@
+PODS:
+  - WKWebViewWithURLProtocol (0.1.0)
+
+DEPENDENCIES:
+  - WKWebViewWithURLProtocol
+
+SPEC REPOS:
+  trunk:
+    - WKWebViewWithURLProtocol
+
+SPEC CHECKSUMS:
+  WKWebViewWithURLProtocol: f7f2b367c40680105794a068ed2bb2cd5922c27c
+
+PODFILE CHECKSUM: da6a2fc0dc4d1f28649bdc12cfdb8c1f67485727
+
+COCOAPODS: 1.10.1
