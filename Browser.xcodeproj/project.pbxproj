@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C49974568BB13A3388B10F2 /* Pods_Browser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C518BDEAB5ACCC8D6ECAD /* Pods_Browser.framework */; };
+		488D4C7125DAD14800D9C1E6 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488D4C7025DAD14800D9C1E6 /* RealmModel.swift */; };
 		48E6504625D597A8006AD610 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6504525D597A8006AD610 /* AppDelegate.swift */; };
 		48E6504825D597A8006AD610 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6504725D597A8006AD610 /* SceneDelegate.swift */; };
 		48E6504A25D597A8006AD610 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6504925D597A8006AD610 /* SearchViewController.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		488D4C7025DAD14800D9C1E6 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
 		48E6504225D597A8006AD610 /* Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Browser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E6504525D597A8006AD610 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E6504725D597A8006AD610 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				48E6506525D5AB39006AD610 /* HistoryView.swift */,
 				48E6506825D5ABE4006AD610 /* HistoryViewController.swift */,
 				48E6506125D5A4F6006AD610 /* TabBar.swift */,
+				488D4C7025DAD14800D9C1E6 /* RealmModel.swift */,
 				48E6504B25D597A8006AD610 /* Main.storyboard */,
 				48E6504E25D597AE006AD610 /* Assets.xcassets */,
 				48E6505025D597AE006AD610 /* LaunchScreen.storyboard */,
@@ -100,7 +103,6 @@
 				A5D7E53731450AE2E1056F5E /* Pods-Browser.debug.xcconfig */,
 				4BCE59633336F1DC4507803F /* Pods-Browser.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -223,6 +225,7 @@
 				48E6504A25D597A8006AD610 /* SearchViewController.swift in Sources */,
 				48E6504625D597A8006AD610 /* AppDelegate.swift in Sources */,
 				48E6504825D597A8006AD610 /* SceneDelegate.swift in Sources */,
+				488D4C7125DAD14800D9C1E6 /* RealmModel.swift in Sources */,
 				48E6506925D5ABE4006AD610 /* HistoryViewController.swift in Sources */,
 				48E6506225D5A4F6006AD610 /* TabBar.swift in Sources */,
 			);

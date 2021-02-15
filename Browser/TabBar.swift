@@ -27,6 +27,7 @@ class DashboardTabBarController: UITabBarController {
         
         self.viewControllers = [itemNavigationContoller, itemNavigationContoller2]
         
+        searchVC.delegate = historyVC
         
         
         
