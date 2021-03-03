@@ -59,7 +59,7 @@ extension HistoryViewController: SearchViewControllerDelegate {
     
     func searchViewController(_ viewController: SearchViewController, searchLink link: String) {
         
-        mainView.tableView.reloadData()
+       
         
         let searchLink = RealmModel(searchLink: link)
         
@@ -70,8 +70,10 @@ extension HistoryViewController: SearchViewControllerDelegate {
                 realm.add(searchLink, update: .all)
             }
         } catch {
-            print("error")
+            print(error)
         }
+        
+        mainView.tableView.reloadData()
         //searchLink.append(link)
     }
 }
